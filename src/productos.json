@@ -43,5 +43,50 @@
 		"thumbnail": "a",
 		"code": "abc1237",
 		"stock": 200
+	},
+	{
+		"id": 6,
+		"title": "el extranjero",
+		"description": "libro",
+		"price": 30,
+		"thumbnail": "a",
+		"code": "abc1238",
+		"stock": 200
+	},
+	{
+		"id": 7,
+		"title": "el extranjero",
+		"description": "libro",
+		"price": 30,
+		"thumbnail": "a",
+		"code": "abc1239",
+		"stock": 200
+	},
+	{
+		"id": 8,
+		"title": "el extranjero",
+		"description": "libro",
+		"price": 30,
+		"thumbnail": "a",
+		"code": "abc1231",
+		"stock": 200
+	},
+	{
+		"id": 9,
+		"title": "el extranjero",
+		"description": "libro",
+		"price": 30,
+		"thumbnail": "a",
+		"code": "abc1232",
+		"stock": 200
+	},
+	{
+		"id": 10,
+		"title": "el extranjero",
+		"description": "libro",
+		"price": 30,
+		"thumbnail": "a",
+		"code": "abc1230",
+		"stock": 200
 	}
 ]

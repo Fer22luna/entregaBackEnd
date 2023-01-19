@@ -7,13 +7,20 @@ const app = express()
 
 
 const manager = new ProductManager()
+
 /*
 console.log(manager.addProducts("el extranjero","libro",30,"a","abc123",200))
 console.log(manager.addProducts("el extranjero","libro",30,"a","abc124",200))
 console.log(manager.addProducts("el extranjero","libro",30,"a","abc1235",200))
 console.log(manager.addProducts("el extranjero","libro",30,"a","abc1236",200))
 console.log(manager.addProducts("el extranjero","libro",30,"a","abc1237",200))
+console.log(manager.addProducts("el extranjero","libro",30,"a","abc1238",200))
+console.log(manager.addProducts("el extranjero","libro",30,"a","abc1239",200))
+console.log(manager.addProducts("el extranjero","libro",30,"a","abc1231",200))
+console.log(manager.addProducts("el extranjero","libro",30,"a","abc1232",200))
+console.log(manager.addProducts("el extranjero","libro",30,"a","abc1230",200))
 */
+
 
 app.get("/products", async (req, res) => {
 
@@ -39,7 +46,7 @@ app.get("/products/:pid", async (req, res) => {
         const productId = products.filter(product => product.id === Number(pid))
         res.json(productId)
     } else {
-        res.json({error: `El producto con el id : ${pid} no se encontro`})
+        res.json({error: `El producto con el id : ${pid} no existe`})
 
     }
 
